@@ -1,0 +1,3 @@
+Repositorio: Espacio donde se almacena todo el historial y archivos de un proyecto.
+Commit: Una captura o registro de los cambios realizados en un momento dado.
+Push: Comando para subir los cambios locales al servidor remoto en GitHub.
