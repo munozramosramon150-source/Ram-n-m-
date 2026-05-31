@@ -1,0 +1,4 @@
+Al probar las rutas en el navegador ocurre lo siguiente:
+1. http://localhost:3000 -> Muestra el mensaje 'Servidor activo', que es la respuesta a la ruta raíz (/).
+2. http://localhost:3000/saludo -> Muestra el mensaje 'Hola comunidad', respondiendo textualmente a este endpoint específico.
+3. http://localhost:3000/mensaje/juan -> El servidor toma el parámetro ':nombre' de la URL (en este caso 'juan') y responde dinámicamente con un saludo personalizado: 'Hola juan'.
