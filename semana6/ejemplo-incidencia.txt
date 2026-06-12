@@ -1,0 +1,4 @@
+{
+  "tipo": "Infraestructura vial y alumbrado",
+  "descripcion": "Se reporta un enorme bache en la vía principal junto a una luminaria pública que parpadea constantemente, lo que genera riesgo de accidentes en horas de la noche."
+}

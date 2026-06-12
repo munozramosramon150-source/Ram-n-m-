@@ -1,0 +1,11 @@
+Al enviar una petición POST a http://localhost:3000/registro con el JSON sugerido, el servidor responde con un estado de éxito (código 200 OK) y devuelve un objeto JSON que confirma la recepción.
+
+La respuesta exacta del servidor es:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación del comportamiento:
+El middleware `express.json()` procesa el cuerpo de la petición ("body") y lo transforma en un objeto JavaScript accesible mediante `req.body`. Posteriormente, la ruta extrae las propiedades 'nombre' y 'mensaje' para devolverlas en la respuesta estructurada usando `res.json()`. Esto demuestra que la comunicación bidireccional de datos en formato JSON funciona correctamente.
