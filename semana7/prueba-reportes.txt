@@ -1,0 +1,13 @@
+Al realizar una petición de tipo GET a la ruta http://localhost:3000/reportes después de haber enviado datos mediante el método POST, el servidor responde con un código de estado 200 OK y devuelve un arreglo (Array) que contiene todos los objetos JSON registrados.
+
+La respuesta obtenida al consultar es:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Explicación técnica del comportamiento:
+Esto sucede porque los datos enviados a través del método POST no se pierden de inmediato; se guardan de manera temporal en la variable global `reportes` definida como un array. Cuando el cliente hace la petición GET, el servidor Express toma ese arreglo que está alojado en la memoria RAM y lo transforma en formato JSON para entregárselo al usuario de forma estructurada. Si el servidor se apaga o se reinicia, este array volverá a vaciarse ya que no contamos aún con una base de datos persistente.
