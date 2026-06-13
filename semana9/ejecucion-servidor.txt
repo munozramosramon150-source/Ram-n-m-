@@ -1,0 +1,14 @@
+¿Qué ocurre cuando ejecutas node server.js?
+Al ejecutar el comando, Node.js inicializa la aplicación de Express y levanta un proceso en segundo plano que mantiene el servidor web activo, bloqueando temporalmente la terminal para quedarse escuchando las conexiones entrantes.
+
+¿Qué mensaje aparece en la terminal?
+Aparece el mensaje configurado en el 'console.log': "Servidor ejecutándose en puerto 3000".
+
+¿Qué sucede cuando visitas la ruta /estado?
+El navegador o cliente HTTP realiza una petición GET al servidor, el cual procesa la solicitud a través de la ruta definida y responde con un código de estado 200 OK junto a un objeto de datos estructurado en formato JSON.
+
+La respuesta obtenida de /estado es:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
