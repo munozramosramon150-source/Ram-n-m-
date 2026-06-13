@@ -1,0 +1,5 @@
+1. No exponer datos personales de los usuarios ni de los líderes de la comunidad en pantallas de acceso público.
+2. Proteger credenciales mediante el cifrado de contraseñas y el uso de variables de entorno para almacenar tokens sensibles.
+3. Usar conexiones seguras mediante protocolos HTTPS para que toda la información que viaja por la red esté cifrada de extremo a extremo.
+4. Registrar accesos y mantener logs detallados de auditoría para identificar actividades inusuales o intentos de ingreso fallidos.
+5. Limitar el acceso a información sensible aplicando el principio de menores privilegios, asegurando que cada rol de usuario solo vea lo estrictamente necesario.

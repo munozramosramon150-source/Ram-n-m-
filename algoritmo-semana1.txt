@@ -1,1 +1,0 @@
-1.Buscar fuente 2.Verificar autor 3.Contrastar medios 4.Revisar fecha 5.Evaluar tono 6.Compartir 
