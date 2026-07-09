@@ -1,0 +1,5 @@
+El login en una aplicación es el mecanismo de control de acceso que permite verificar la identidad de un usuario (mediante credenciales como correo y contraseña) antes de otorgarle permisos dentro del sistema. 
+
+Algunas rutas deben estar estrictamente protegidas porque manejan acciones administrativas o críticas —como cambiar estados de reportes, editar configuraciones del servidor o eliminar registros— que no deben estar disponibles para cualquiera. 
+
+Para garantizar la seguridad y privacidad de la comunidad, bajo ninguna circunstancia se debe exponer públicamente información como contraseñas, tokens de sesión, claves de API, números de documento de identidad, direcciones residenciales o teléfonos de los ciudadanos.

@@ -1,0 +1,23 @@
+MODELO DE DATOS DE LA PLATAFORMA COMUNITARIA
+
+Entidad: Causa
+Campos principales:
+- id (Numérico / Autoincremental, Llave primaria)
+- titulo (Texto, Nombre corto de la causa)
+- descripcion (Texto largo, Detalle de la problemática o iniciativa)
+- sector (Texto, Ubicación general o barrio sin dar direcciones exactas)
+- fecha_creacion (Fecha, Cuándo se registró)
+
+Propósito:
+Almacenar de forma estructurada las iniciativas, problemáticas o causas comunitarias reportadas por los ciudadanos que serán visibles públicamente en el dashboard.
+
+
+Entidad: Apoyo
+Campos principales:
+- id (Numérico, Llave primaria)
+- causa_id (Numérico, Llave foránea que conecta con la entidad Causa)
+- usuario_anonimo_id (Texto, Hash o ID genérico del usuario que apoya para proteger su identidad)
+- fecha_apoyo (Fecha, Registro de cuándo se dio el respaldo)
+
+Propósito:
+Registrar de manera segura los apoyos o firmas digitales que recibe cada causa, permitiendo llevar una trazabilidad exacta del interés comunitario sin exponer nombres reales ni datos sensibles de quienes apoyan.

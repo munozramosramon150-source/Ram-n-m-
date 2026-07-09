@@ -1,0 +1,10 @@
+ESTRUCTURA DE LA INTERFAZ DE USUARIO
+
+1. Vista Principal (Dashboard Público):
+Muestra un listado dinámico con todas las causas comunitarias disponibles. Cada causa se visualiza en una tarjeta con su título, descripción general, sector y fecha. No se muestran datos personales del creador.
+
+2. Sección de Interacción (Botón y Contador):
+Dentro de cada tarjeta de causa, el usuario verá un contador de apoyos (ej. "142 personas apoyan esto") junto a un botón interactivo que dice "Apoyar Causa". Al hacer clic, el contador se actualiza en tiempo real consumiendo el API de la base de datos.
+
+3. Formulario para Crear una Causa:
+Sección accesible tras iniciar sesión, que contiene un formulario simple con tres campos: Título de la iniciativa, Descripción detallada y Sector/Barrio. Cuenta con un botón de "Publicar Causa" que valida que no se ingresen datos privados antes de enviar la información al backend.
