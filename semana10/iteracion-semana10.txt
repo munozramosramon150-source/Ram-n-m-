@@ -1,0 +1,15 @@
+PLANIFICACIÓN DE LA ITERACIÓN
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El registro de incidencias/reportes comunitarios con su respectivo formulario.
+- Tarea 2: El dashboard básico para visualizar el listado de las solicitudes registradas.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen la base funcional de todo el sistema de veeduría. Sin el registro, la comunidad no puede generar datos ni evidencias; y sin el dashboard, no hay forma de centralizar u organizar la información. Estas dos tareas resuelven el problema principal de evitar que los reportes se pierdan en carpetas desordenadas.
+
+3. Definición de Tarea "Terminada" (Definition of Done - DoD):
+Para que una tarea se considere completamente finalizada en este proyecto, debe cumplir estrictamente con los siguientes 4 criterios:
+- Funciona correctamente: El código corre sin errores y cumple con el objetivo de la historia de usuario.
+- No expone datos sensibles: Cumple con la minimización de datos (sin cédulas, nombres completos o datos reales en el código/práctica).
+- Fue revisada y probada: Se comprobó manualmente que los flujos o vistas responden de manera correcta.
+- Quedó registrada en Git: Los cambios correspondientes fueron subidos al repositorio con su respectivo commit descriptivo.

@@ -1,0 +1,12 @@
+BACKLOG DE LA SOLUCIÓN COMUNITARIA (Ordenado por Prioridad)
+
+[ALTA PRIORIDAD]
+1. Como ciudadano, quiero registrar una incidencia o reporte comunitario en la plataforma para dejar evidencia ordenada del caso sin que se pierda en chats de mensajería.
+
+[MEDIA PRIORIDAD]
+2. Como coordinador o revisor, quiero visualizar un dashboard con el estado y los avances de las solicitudes registradas para realizar un seguimiento eficiente.
+
+3. Como miembro del equipo de veeduría, quiero recibir una notificación automática en Telegram cada vez que se registre un nuevo reporte para iniciar su revisión rápidamente.
+
+[BAJA PRIORIDAD]
+4. Como ciudadano, quiero consultar las rutas ciudadanas y de orientación en la plataforma para saber a qué autoridad competente corresponde mi solicitud de forma clara.
