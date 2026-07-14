@@ -1,0 +1,10 @@
+Automatización del Sistema con Telegram y n8n
+
+1. Evento que activa la automatización:
+Se registra una nueva causa comunitaria en la base de datos de la plataforma.
+
+2. Mensaje que se envía:
+"📢 ¡Nueva causa comunitaria creada en la plataforma! Un vecino ha publicado una nueva iniciativa para mejorar nuestro entorno. Ingresa a la plataforma para conocer los detalles y sumar tu apoyo."
+
+3. Información que NO debe enviarse por seguridad:
+No se deben incluir nombres completos de los creadores, números de cédula, números telefónicos, direcciones exactas de viviendas, ni comentarios sensibles de carácter personal que puedan vulnerar la privacidad de los participantes.

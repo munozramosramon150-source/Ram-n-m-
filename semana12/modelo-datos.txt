@@ -1,0 +1,19 @@
+Modelo de Datos - Petición en 3 Clics
+
+Entidad: Causa
+Atributos:
+- id (Identificador único de la causa)
+- titulo (Nombre o encabezado de la problemática)
+- descripcion (Detalle de la solicitud o necesidad comunitaria)
+- fecha (Día y hora de creación de la causa)
+
+Para qué sirve: Almacena la información principal de las solicitudes creadas por los ciudadanos, permitiendo que queden registradas de forma pública y organizada en el sistema.
+
+Entidad: Apoyo
+Atributos:
+- id (Identificador único del registro de apoyo)
+- causa_id (Relación o llave que conecta este apoyo con una causa específica)
+- nombre (Nombre del ciudadano que apoya, o un identificador anónimo si se prefiere)
+- fecha (Día y hora en que se registró el apoyo)
+
+Para qué sirve: Registra de manera individual cada respaldo que recibe una causa, permitiendo llevar la cuenta total de ciudadanos que apoyan la iniciativa sin necesidad de duplicar esfuerzos ni acumular datos sensibles innecesarios.
